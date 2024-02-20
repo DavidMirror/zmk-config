@@ -1,0 +1,12 @@
+file_format: "1"
+id: drac
+name: Drac
+type: shield
+url: https://github.com/germain-gadel
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  - encoder
+siblings:
+  - drac_left
+  - drac_right
