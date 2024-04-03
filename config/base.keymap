@@ -223,8 +223,8 @@ ZMK_BEHAVIOR(win_sleep, macro,
 
 /* Keymap */
 
-ZMK_CONDITIONAL_LAYER(MOUSE NAV, MEDIA)  // FN + NUM --> SYS
-ZMK_CONDITIONAL_LAYER(SYM NUM, FUN)  // FN + NUM --> SYS
+ZMK_CONDITIONAL_LAYER(MOUSE NAV, MEDIA)  // MOUSE + NAV --> 
+ZMK_CONDITIONAL_LAYER(SYM NUM, FUN)  // SYM + FUN --> SYS
 
 ZMK_LAYER(base,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
