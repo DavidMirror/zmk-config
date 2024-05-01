@@ -30,14 +30,14 @@ include:
   # - board: seeeduino_xiao_ble
   #   shield: dactyl_right
 
-    - board: sparkfun_pro_micro_rp2040
-      shield: dilemma_left 
-    - board: sparkfun_pro_micro_rp2040
-      shield: dilemma_right
+    # - board: sparkfun_pro_micro_rp2040
+    #   shield: dilemma_left 
+    # - board: sparkfun_pro_micro_rp2040
+    #   shield: dilemma_right
 
     - board: seeeduino_xiao_ble
       shield: drac_left
     - board: seeeduino_xiao_ble
       shield: drac_right
-    - board: seeeduino_xiao_ble
-      shield: settings_reset
+    # - board: seeeduino_xiao_ble
+    #   shield: settings_reset
