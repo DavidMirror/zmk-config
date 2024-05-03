@@ -41,3 +41,6 @@ include:
       shield: drac_right
     # - board: seeeduino_xiao_ble
     #   shield: settings_reset
+
+    - board: sparkfun_pro_micro_rp2040
+      shield: reviung41
