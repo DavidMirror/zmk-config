@@ -1,5 +1,5 @@
 /* source keypos definitions */
-#include "../zmk-nodefree-config/keypos_def/keypos_41keys.h"
+#include "../zmk-nodefree-config/keypos_def/keypos_reviung41.h"
 
 /* map extra keys */
 #define X_MH  &num_word  // thumb row, left

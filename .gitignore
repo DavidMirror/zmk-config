@@ -1,1 +1,5 @@
 config/drac-non-modular.keymap
+scripts/readme.md
+scripts/zmk_build.sh
+scripts/zmk_local_install.sh
+scripts/zmk_run_docker.sh
