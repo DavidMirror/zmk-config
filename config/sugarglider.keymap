@@ -2,6 +2,21 @@
 #include "../zmk-nodefree-config/keypos_def/keypos_sugarglider.h"
 
 /* map Sugar Glider's extra keys */
+#define X_LT  &kp ESC
+#define X_MT  &kp T
+#define X_RT  &kp BACKSLASH
+
+#define X_LM    &kp ESC
+#define X_MT    &kp M &kp W
+#define X_RM    &kp BSPC
+
+#define X_LB    &kp C
+#define X_MB    &kp B 
+#define X_RB    &kp N3
+
+#define X_LH    &kp X 
+#define X_MH    &none &none &none
+#define X_RH    &kp Z
 // #define X_LH  &smart_mouse  // thumb row, left
 // #define X_RH  &bs_del       // thumb row, right
 
