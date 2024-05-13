@@ -17,7 +17,7 @@ manifest:
       revision: cirque
       clone-depth: 1
     - name: zmk
-      remote: urob
+      remote: zmkfirmware
       revision: pull/2027/merge
       import: app/west.yml
     - name: cirque-input-module
