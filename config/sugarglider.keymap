@@ -3,10 +3,9 @@
 
 /* map Sugar Glider's extra keys */
 #define X_LT  &kp ESC
-#define X_MT  &kp T
 #define X_RT  &kp BACKSLASH
 
-#define X_LM    &kp ESC
+#define X_LM    &kp Q
 #define X_MT    &kp M &kp W
 #define X_RM    &kp BSPC
 
