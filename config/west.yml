@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/mechwild
     - name: lesshonor
       url-base: https://github.com/lesshonor
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: mechwild-zmk-keyboards
       #remote: mechwild
