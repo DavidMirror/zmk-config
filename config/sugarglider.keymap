@@ -6,11 +6,11 @@
 #define X_RT  &kp BACKSLASH
 
 #define X_LM    &kp Q
-#define X_MT    &kp T &kp T &kp T     //Three mini 4 pin switches 
+#define X_MT    &kp N2     //Three mini 4 pin switches 
 #define X_RM    &kp BSPC
 
 #define X_LB    &kp N1
-#define X_MB    &kp &none //unknown key (touchpad touch?)
+#define X_MB    &kp T &kp T &kp T //unknown key (touchpad touch?)
 #define X_RB    &kp N3
 
 #define X_LH    &kp X &smart_mouse      //Left Encoder key, left most thumb key
