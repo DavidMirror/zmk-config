@@ -6,18 +6,16 @@
 #define X_RT  &kp BACKSLASH
 
 #define X_LM    &kp Q
-#define X_MT    &kp T &kp T &kp T     //Three mini 4 pin buttons 
+#define X_MT    &kp T &kp T &kp T     //Three mini 4 pin switches 
 #define X_RM    &kp BSPC
 
 #define X_LB    &kp N1
 #define X_MB    &kp &none //unknown key (touchpad touch?)
 #define X_RB    &kp N3
 
-#define X_LH    &kp X 
-#define X_MH    &kp N1 &kp N2 &kp N3 &kp N4 &kp N5   //Mouse keys (5 because of scroll input?) 
-#define X_RH    &kp Z
-// #define X_LH  &smart_mouse  // thumb row, left
-// #define X_RH  &bs_del       // thumb row, right
+#define X_LH    &kp X &smart_mouse      //Left Encoder key, left most thumb key
+#define X_MH    &kp N2 &kp N3 &kp N4    //Mouse keys 
+#define X_RH    &bs_del &kp Z           // Right-most thumb key,  Right ecoder key
 
 /* activate bluetooth */
 // #define CONFIG_WIRELESS 1
