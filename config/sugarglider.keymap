@@ -10,11 +10,11 @@
 #define X_RM    &kp BSPC
 
 #define X_LB    &kp N1
-#define X_MB    &kp N2
+#define X_MB    &kp &none &none &none //mouse keys
 #define X_RB    &kp N3
 
 #define X_LH    &kp X 
-#define X_MH    &none &none &none
+#define X_MH    &none &none &none    //nothing?
 #define X_RH    &kp Z
 // #define X_LH  &smart_mouse  // thumb row, left
 // #define X_RH  &bs_del       // thumb row, right
