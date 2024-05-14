@@ -14,7 +14,7 @@
 #define X_RB    &kp N3
 
 #define X_LH    &kp X 
-#define X_MH    &N1 &N2 &N3 &N4 &N5   //Mouse keys (5 because of scroll input?) 
+#define X_MH    &N1 &N2 &N3  //Mouse keys (5 because of scroll input?) 
 #define X_RH    &kp Z
 // #define X_LH  &smart_mouse  // thumb row, left
 // #define X_RH  &bs_del       // thumb row, right
