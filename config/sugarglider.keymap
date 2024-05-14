@@ -6,7 +6,7 @@
 #define X_RT  &kp BACKSLASH
 
 #define X_LM    &kp Q
-#define X_MT    &kp T 
+#define X_MT    &kp T &kp T &kp T     //Three mini 4 pin buttons 
 #define X_RM    &kp BSPC
 
 #define X_LB    &kp N1
