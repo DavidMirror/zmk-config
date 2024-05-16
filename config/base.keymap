@@ -11,7 +11,7 @@
 #include "../zmk-nodefree-config/international_chars/greek.dtsi"
 #include "../zmk-nodefree-config/international_chars/german.dtsi"
 
-#define DEF 0
+#define BASE 0
 #define NAV 1
 #define MEDIA 2
 #define FUN 3
@@ -228,7 +228,7 @@ ZMK_CONDITIONAL_LAYER(NUM SYM, SYS)  // SYM + NUM --> FUN
 
 ZMK_LAYER(base,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     &kp Q         &kp W         &kp F         &kp P         &kp B           X_MT     &kp J         &kp L         &kp U         &kp Y         &kp SQT         X_RT
+    X_LT     &kp Q         &kp W         &kp F         &kp P         &kp B           X_MT     &kp J         &kp L         &kp U         &kp Y         &kp SEMI        X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LM     &hml LGUI A   &hml LALT R   &hml LCTRL S  &hml LSHFT T  &kp G           X_MM     &kp K         &hmr RSHFT N  &hmr LCTRL E  &hmr LALT I   &hmr LGUI O     X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
