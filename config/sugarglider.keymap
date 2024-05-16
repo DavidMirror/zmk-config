@@ -14,8 +14,8 @@
 #define X_MB    &kp N2            //unknown key (touchpad touch?)
 #define X_RB    &kp N3
 
-#define X_LH    &kp c_mute &lt MEDIA ESC     //Left Encoder key, left most thumb key
-#define X_MH    &mkp LCLK  &mkp MCLK  &mkp RCLK       //Mouse keys 
+#define X_LH    &kp X      &smart_mouse //&kp c_mute &lt MEDIA ESC     //Left Encoder key, left most thumb key
+#define X_MH    &kp N2     &kp N2     &kp N2//&mkp LCLK  &mkp MCLK  &mkp RCLK       //Mouse keys 
 #define X_RH    &bs_del    &kp C_PP           // Right-most thumb key,  Right ecoder key
 
 /* activate bluetooth */
